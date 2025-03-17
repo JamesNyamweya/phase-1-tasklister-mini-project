@@ -20,8 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 taskList.removeChild(taskItem);
             });
 
+            taskItem.appendChild(deleteButton);
             taskList.appendChild(taskItem);
-            taskList.appendChild(deleteButton);
+            
         }
 
         taskInput.value = "";
